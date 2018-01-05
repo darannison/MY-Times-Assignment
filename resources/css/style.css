@@ -1,0 +1,53 @@
+html {
+  background-color: black;
+}
+
+.nav-bar {
+  position: relative;
+  top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-link a {
+  color: white;
+}
+
+.nav-link a:hover {
+  background-color: grey;
+}
+
+.main-container {
+  border: 1px solid white;
+  height: 300px;
+  position: relative;
+  top: 100px;
+  text-align: right;
+  background-image: url("../images/photo-1464925257126-6450e871c667.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#title {
+  font-size: 60px;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  margin-right: 20px;
+}
+
+#subtitle {
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.copyright {
+  position: relative;
+  top: 120px;
+}
+
+#copyright-statement {
+  color: white;
+}
